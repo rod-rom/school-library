@@ -1,0 +1,45 @@
+<html>
+<!--
+    create an Html page for school a library
+        TODO
+    -navigation bar
+    -books to rent
+    -price table
+    -a form to reserve a book
+
+-->
+
+
+<head>
+    <h1>Online Library</h1>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li>
+            <form><label for="search">Search:</label><input type="text" id="search" name="search"></form>
+        </li>
+    </ul>
+    <p>Books available:</p>
+    <div class="bookList" style="padding-top: 10px;">
+        <div class="left" style="width: 75%;">
+            <a title="To Kill a Mockingbird" class="leftAlignedImage" href="To_Kill_a_Mockingbird.html"><img
+                    alt="To Kill a Mockingbird"
+                    src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1553383690l/2657._SY75_.jpg">
+            </a>
+            <a class="bookTitle" href="To_Kill_a_Mockingbird.html">To Kill a Mockingbird</a>
+            <br>
+            <span class="by">by Harper Lee</span>
+        </div>
+        <div class="right"></div>
+    </div>
+
+</body>
+
+</html>
